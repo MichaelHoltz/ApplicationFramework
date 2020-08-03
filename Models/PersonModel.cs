@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ApplicationFrameworkMVVM.Models
+namespace ApplicationFramework.Models
 {
     public class PersonModel
     {

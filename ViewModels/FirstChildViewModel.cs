@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace ApplicationFrameworkMVVM.ViewModels
+namespace ApplicationFramework.ViewModels
 {
     public class FirstChildViewModel: Screen
     {

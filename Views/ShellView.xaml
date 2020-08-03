@@ -1,9 +1,9 @@
-﻿<Window x:Class="ApplicationFrameworkMVVM.Views.ShellView"
+﻿<Window x:Class="ApplicationFramework.Views.ShellView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ApplicationFrameworkMVVM.Views"
+        xmlns:local="clr-namespace:ApplicationFramework.Views"
         mc:Ignorable="d" FontSize="18"
         Title="WPF in C# with MVVM using Caliburn Micro" Height="300" Width="300" WindowStartupLocation="CenterScreen">
     <Grid>
@@ -18,6 +18,7 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
@@ -47,8 +48,9 @@
         <Button x:Name="LoadPageOne" Grid.Row="5" Grid.Column="1">Load First Page</Button>
         <Button x:Name="LoadPageTwo" Grid.Row="5" Grid.Column="2">Load Second Page</Button>
         <!-- Row 6-->
-        <ContentControl Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="5"
-                        x:Name="ActiveItem" />
+        <ContentControl Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="5" x:Name="ActiveItem" />
+        <!-- Row 7-->
+
     </Grid>
 
 </Window>

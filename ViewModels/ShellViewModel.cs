@@ -1,10 +1,10 @@
-﻿using ApplicationFrameworkMVVM.Models;
+﻿using ApplicationFramework.Models;
 using Caliburn.Micro;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ApplicationFrameworkMVVM.ViewModels
+namespace ApplicationFramework.ViewModels
 {
     public class ShellViewModel : Conductor<object>
     {
@@ -85,7 +85,9 @@ namespace ApplicationFrameworkMVVM.ViewModels
             return true;
 
         }
+#pragma warning disable IDE0060 // Remove unused parameter
         public void ClearText(string firstName, string lastName)
+#pragma warning restore IDE0060 // Remove unused parameter
         {
             FirstName = "";
             LastName = "";

@@ -11,7 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ApplicationFrameworkMVVM.Views
+namespace ApplicationFramework.Views
 {
     /// <summary>
     /// Interaction logic for FirstChildView.xaml

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ApplicationFrameworkMVVM.ViewModels
+namespace ApplicationFramework.ViewModels
 {
     public class SecondChildViewModel: Screen
     {
